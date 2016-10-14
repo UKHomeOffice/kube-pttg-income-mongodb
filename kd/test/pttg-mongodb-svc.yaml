@@ -10,7 +10,7 @@ spec:
   ports:
   - name: http
     port: 27017
-    nodePort: 30702
+    nodePort: 30703
     targetPort: http
   selector:
     name: pttg-mongodb
