@@ -4,6 +4,10 @@
 
 This is the kubernetes deployment files for Proving Things mongo db (non production test data)
 
-run deployment
+run deployment example
 
-	./scripts/deploy_kd
+	./scripts/deploy_kd <mongo image version> <environment>
+	
+e.g.
+	
+	./scripts/deploy_kd 0.1.0 preprod 

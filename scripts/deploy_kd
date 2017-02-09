@@ -60,4 +60,4 @@ kubectl version --client
 echo "deploying ..."
 export VERSION
 export ENVIRONMENT
-./kd_linux_amd64 --context=pt-i-dev --namespace=pt-i-${ENVIRONMENT} --file kd/${ENVIRONMENT}/${APP}-deployment.yaml --file kd/${ENVIRONMENT}/${APP}-svc.yaml
+./kd_linux_amd64 --context=pt-i-${ENVIRONMENT} --namespace=pt-i-${ENVIRONMENT} --file kd/${ENVIRONMENT}/${APP}-deployment.yaml --file kd/${ENVIRONMENT}/${APP}-svc.yaml
