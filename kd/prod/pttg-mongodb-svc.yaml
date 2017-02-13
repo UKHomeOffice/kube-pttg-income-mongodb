@@ -6,11 +6,9 @@ metadata:
     name: pttg-mongodb
   name: pttg-mongodb
 spec:
-  type: NodePort
   ports:
   - name: http
     port: 27017
-    nodePort: 30703
     targetPort: http
   selector:
     name: pttg-mongodb
