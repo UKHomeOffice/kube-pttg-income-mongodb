@@ -32,8 +32,7 @@ spec:
             cpu: 100m
             memory: 256Mi
         ports:
-          - name: http
-            containerPort: 27017
+          - containerPort: 27017
         livenessProbe:
           tcpSocket:
             port: 27017
